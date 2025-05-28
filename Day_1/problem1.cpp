@@ -10,6 +10,7 @@ int main() {
             int bottom=(2*n)-2-i;
             int left=j;
             int right=(2*n)-2-j;
+            //finding the minimum distance of postion 
             int minm_dist;
             if(top<bottom){
                 minm_dist=top;
